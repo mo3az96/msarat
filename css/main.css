@@ -470,7 +470,7 @@ html[dir='ltr'] .newsletter-button {
 
 html[dir='ltr'] .newsletter-button {
   left: auto;
-  right: 20px;
+  right: 7px;
 }
 
 html[dir='ltr'] .newsletter-button:after {
@@ -595,6 +595,7 @@ html[dir='rtl'] .hot-line span {
   opacity: 0;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  z-index: 9;
 }
 
 html[dir='ltr'] .sub-ul {
@@ -895,14 +896,13 @@ html[dir='rtl'] .sub-ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 150px;
   margin: 0 55.5px;
 }
 
 @media (max-width: 992px) {
   .cat {
     margin: auto;
-    width: 150px;
+    width: auto;
   }
 }
 
@@ -913,7 +913,7 @@ html[dir='rtl'] .sub-ul {
 }
 
 .cat .cat-img {
-  width: 100%;
+  width: 150px;
   height: 150px;
   background-color: #fff;
   -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
