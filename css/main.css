@@ -1095,6 +1095,14 @@ html[dir='rtl'] .product .oldprice {
   background-color: #2fb065;
 }
 
+@media (max-width: 992px) {
+  .product .mo-add-to-cart {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
+
 .product:hover .pro-img {
   background-color: #fff;
 }
@@ -1604,7 +1612,7 @@ html[dir='rtl'] .user-anchor .mo-search-icon {
 
 @media (max-width: 992px) {
   .user-anchor {
-    font-size: 20px;
+    font-size: 24px;
   }
   .user-anchor.mo-fav-icon {
     display: none;
@@ -1906,6 +1914,12 @@ html[dir='ltr'] .nav-foot-link:hover, html[dir='ltr'] .nav-foot-link:focus {
 .social-link:hover {
   background-color: #fff;
   color: #2f2f2f;
+}
+
+@media (max-width: 992px) {
+  .social-link {
+    font-size: 20px;
+  }
 }
 
 .last-footer {
